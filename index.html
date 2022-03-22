@@ -45,9 +45,9 @@
     <!--INTRO-->
     <section class="intro" id="home">
       <h1 class="section__title section__title--intro">
-        Hi, I am <strong>Adam Cushing</strong>
+        Hello! I'm <strong>Adam Cushing</strong>
       </h1>
-        <p class="section__subtitle section__subtitle--intro">front-end dev</p>
+        <p class="section__subtitle section__subtitle--intro">C# software dev</p>
         <img src="images/portraitresize.jpg" alt="photograph of Adam Cushing" class="intro__img">
     </section>
 
@@ -55,6 +55,7 @@
     <section class="my-services" id="services">
       <h2 class="section__title section__title--services">What I do</h2>
       <div class="services">
+        <!--
         <div class="service">
           <h3>Design + Development</h3>
           <p>Over the course of the 20<sup>th</sup> century&mdash;from 1891 to 2007,
@@ -62,17 +63,15 @@
             Under such a growth rate, output per person doubled every thirty-three years.
             This means that, for little more than a century,
             every generation could reasonably expect to live twice as well off as the previous generation.</p>
-        </div><!-- / service-->
+        </div> / service-->
 
         <div class="service">
-          <h3>E-Commerce</h3>
-          <p>Over the course of the 20<sup>th</sup> century&mdash;from 1891 to 2007,
-            to be precise&mdash;output per person grew at a rate of 2.1 percent per year.
-            Under such a growth rate, output per person doubled every thirty-three years.
-            This means that, for little more than a century,
-            every generation could reasonably expect to live twice as well off as the previous generation.</p>
+          <h3>Software Development</h3>
+          <p>I build web apps on .NET</p> 
+          <p>Take a look at some of my portfolio projects</p>
         </div><!-- / service-->
 
+        <!--
         <div class="service">
           <h3>WordPress</h3>
           <p>Over the course of the 20<sup>th</sup> century&mdash;from 1891 to 2007,
@@ -80,7 +79,7 @@
             Under such a growth rate, output per person doubled every thirty-three years.
             This means that, for little more than a century,
             every generation could reasonably expect to live twice as well off as the previous generation.</p>
-        </div><!-- / service-->
+        </div> / service-->
 
 
       </div><!--services-->
@@ -91,18 +90,18 @@
     <!--ABOUT ME-->
     <section class="about-me" id="about">
       <h2 class="section__title section__title--about">Who I am</h2>
-      <p class="section__subtitle section__subtitle--about">Developer based out of Winston-Salem</p>
+      <p class="section__subtitle section__subtitle--about">Developer based out of Winston-Salem, NC</p>
 
       <div class="about-me__body">
-        <p>However, upon closer inspection it becomes clear growth in output per person,
-          since the mid-1960s, has been declining. This decline became the most dramatic
-          at the turn of the turn of the 21<sup>st</sup> century,
-          where output per person reached zero growth.</p>
-        <p>However, upon closer inspection it becomes clear growth in output per person,
-          since the mid-1960s, has been declining. This decline became the most dramatic
-          at the turn of the turn of the 21<sup>st</sup> century,
-          where output per person reached zero growth.</p>
-      </div>
+        <p>After earning my degree in the Humanities and working in construction for several years, I was ready for a career change. 
+           Software development seemed like the perfect environment for me to combine my love of language studies with my 
+           appreciation for creative design solutions.
+        </p>
+        <p>My journey began with completing FreeCodeCamp's curriculm for HTML, CSS, and JavaScript. With that foundation, 
+           I branched out into C# and began building my own web apps, learning new 
+           .NET frameworks and technologies along the way, such as ASP.NET/ASP.NET Core MVC,
+            and EntityFramework.</p>
+          </div>
 
       <img src="images/portrait3resizecrop.jpg" alt="another photograph of Adam Cushing" class="about-me__img">
     </section>
@@ -132,42 +131,49 @@
         -->
 
         <!--PORTFOLIO ITEM 4-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-4.jpg" alt="" class="portfolio__img">
-        </a>
-
-        <!--
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-5.jpg" alt="" class="portfolio__img">
-        </a>
-
-      -->
-
+        <div class="portfolio-item-individual" style="padding-top: 30px;">
+          <p>
+            Web app that connects with OpenWeather's API to return weather forecast for the week by city. Uses 
+            Google Maps API autocomplete.
+          </p>
+          <p>- Skills Used -</p>
+          <p>HTML, CSS, JS, C#, ASP.NET Core MVC</p>
+          <a href="https://github.com/arc06e/5-Day-Forecast-App-with-ASP.NETCore-MVC" class="btn">Source Code</a>
+        </div>
+      
         <!--PORTFOLIO ITEM 6-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-6.jpg" alt="" class="portfolio__img">
-        </a>
-
-        <!--MAYBE RENAME PHOTOS FOR CONSISTENCY?-->
-        <!--PORTFOLIO ITEM 7-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-8.jpg" alt="" class="portfolio__img">
-        </a>
-
+        <div>
+          <h3>Weekly Weather Forecast</h3>
+          <p></p>
+          <a href="https://adams-5-day-forecast-app.azurewebsites.net/" class="portfolio__item">         
+            <img src="images/Forecast-resize-1.JPG" alt="" class="portfolio__img">
+          </a>
+      </div>
+        
         <!--PORTFOLIO ITEM 8-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-7.jpg" alt="" class="portfolio__img">
-        </a>
-
+        <div class="portfolio-item-individual" style="padding-top: 30px;">
+          <p>
+            Web app that connects to MSSQL through Entity Framework and stores data for writers, actors, directors, 
+            books, and movies.
+          </p>
+          <p>- Skills Used -</p>
+          <p>HTML, CSS, JS, C#, ASP.NET MVC, Entity Framework</p>
+          <a href="https://github.com/arc06e/Media-DataBase-ASP.NET-MVC-App-with-EF6" class="btn">Source Code</a>
+        </div>
+          
         <!--PORTFOLIO ITEM 9-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-10.jpg" alt="" class="portfolio__img">
-        </a>
+        <div>
+          <h3>Adam's Media Database (AMDb)</h3>
+          <p></p>
+          <a href="https://adams-media-database-app.azurewebsites.net/" class="portfolio__item">         
+            <img src="images/MediaDb-resize-1.JPG" alt="" class="portfolio__img">
+          </a>
+      </div>
 
-        <!--PORTFOLIO ITEM 10-->
-        <a href="#" class="portfolio__item">
-          <img src="images/portfolio-item-9.jpg" alt="" class="portfolio__img">
-        </a>
+        <!--PORTFOLIO ITEM 10 -->
+        <div> 
+        </div>
+        
       </div>
     </section>
 
@@ -176,22 +182,11 @@
       <a href="mailto:adamrobertcushing@gmail.com" class="footer__link">adamrobertcushing@gmail.com</a>
       <ul class="social-list">
         <li class="social-list__item">
-          <a class="social-list__link" href="https://codepen.io/your-work">
-            <i class="fab fa-codepen"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://github.com">
+          <a class="social-list__link" href="https://github.com/arc06e">
             <i class="fab fa-github-square"></i>
           </a>
-        </li>
         <li class="social-list__item">
-          <a class="social-list__link" href="https://www.freecodecamp.org/arc06e">
-            <i class="fab fa-free-code-camp"></i>
-          </a>
-        </li>
-        <li class="social-list__item">
-          <a class="social-list__link" href="https://www.linkedin.com/feed/">
+          <a class="social-list__link" href="https://www.linkedin.com/in/adam-cushing/">
             <i class="fab fa-linkedin"></i>
           </a>
         </li>
