@@ -329,6 +329,10 @@ header {
   margin: 0 auto;
 }
 
+.looking
+{
+  text-align: left;
+}
 /* normally breaks around 600px/900px--this seemed to look better but can be adjusted to 900px if desired*/
 
 @media (min-width: 800px) {
