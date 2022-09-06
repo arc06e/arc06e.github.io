@@ -472,7 +472,17 @@ header {
 .portfolio-item-individual {
   padding: 0 2em 2em;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 0 1em 2em;
+  border: 1px solid;
+  
+}
+
+.portfolio-item-individual-header {
+  padding-top: 30px;
+}
+
+.portfolio-item-individual-description {
+    text-align: left;
 }
 
 .portfolio-item-individual p {
